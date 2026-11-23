@@ -4,6 +4,7 @@
 from transformers import pipeline
 import click
 
+
 # Create a function that reads a file
 def read_file(filename):
     with open(filename, encoding="utf-8") as myfile:
